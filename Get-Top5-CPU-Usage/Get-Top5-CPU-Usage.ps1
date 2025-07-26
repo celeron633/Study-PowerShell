@@ -1,0 +1,1 @@
+Get-Process | Sort-Object -Descending {$_.CPU} | Select-Object -Property Name, CPU -First 5
